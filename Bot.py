@@ -152,7 +152,7 @@ async def meme(ctx):
 
     embed = discord.Embed(title='Meme', description='For more memes check- https://www.memedroid.com', color = discord.Color((r << 16) + (g << 8) + b))
 
-    embed.set_thumbnail(url='https://images3.memedroid.com/images/UPLOADED188/5a91aa326ad4e.jpeg'') 
+    embed.set_thumbnail(url='https://images3.memedroid.com/images/UPLOADED188/5a91aa326ad4e.jpeg') 
 
     embed.set_image(url = random.choice(choices))
 
