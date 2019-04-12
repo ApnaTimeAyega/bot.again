@@ -26,7 +26,8 @@ async def on_ready():
 
     print('Started Androbot') 
 
-    return await client.change_presence(game=discord.Game(name='Under Developement By AnDrOiD#3309'))
+    def is_owner(ctx):
+    return ctx.message.author.id == "367230353993236480"
 
 @client.command(pass_context=True)
 
