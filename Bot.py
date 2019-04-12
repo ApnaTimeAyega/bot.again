@@ -25,9 +25,9 @@ async def on_ready():
     print('--------')
 
     print('Started Androbot') 
-
-    def is_owner(ctx):
-    return ctx.message.author.id == "367230353993236480"
+    
+def is_owner(ctx):
+   return ctx.message.author.id == "367230353993236480"
 
 @client.command(pass_context=True)
 
