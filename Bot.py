@@ -100,7 +100,7 @@ async def help(ctx):
 
     embed.set_image(url = 'https://image.ibb.co/caM2BK/help.gif')
 
-    embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/vMvv5rr',inline = False)
+    embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/vMvv',inline = False)
 
     embed.add_field(name = '!!modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
 
